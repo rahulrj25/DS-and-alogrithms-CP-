@@ -1,6 +1,6 @@
 long long power(int x, unsigned int y)
 {
-    long long res = 1;      // Initialize result
+    long long res = 1;  
  
     x = x % p; 
     while (y > 0)
