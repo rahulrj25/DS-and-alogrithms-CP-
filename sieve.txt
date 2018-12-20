@@ -8,4 +8,13 @@ void fun(){
             }
         }
     }
+
+    for(int i=1;i<=100000;i++){
+        int temp=i;
+        while(si[temp]!=0){
+            factor[i].pb(si[temp]);
+            temp=temp/si[temp];
+        }
+        factor[i].pb(temp);
+    }
 }
