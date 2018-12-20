@@ -1,0 +1,11 @@
+int si[1000001];
+
+void fun(){
+    for(int i=2;i<=1000)+1;i++){
+        if(si[i]==0){
+            for(int j=i*i;j<=1000000;j+=i){
+                if(si[j]==0)si[j]=i;
+            }
+        }
+    }
+}
