@@ -1,8 +1,8 @@
 //Trie for strings with lower-case characters
 struct node{
-        node *children[26];
-        bool isLeaf;
-       int count;
+    node *children[26];
+    bool isLeaf;
+    int count;
 };
     
 node *getNode(void) {
